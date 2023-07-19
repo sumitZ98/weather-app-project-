@@ -3,13 +3,13 @@
     margin: 0;
 }
 body{
-    background-color: #9AC5F4;
+    background-color: rgb(168, 246, 220) ;
     letter-spacing: 0.2em;
     font-size: 0.8em;
 }
 .center{
     max-width: 400px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 .container{
     text-align: center;
@@ -19,13 +19,26 @@ body{
 }
 
 .card{
-    text-align: center;
+    text-align:center;
     box-shadow: 5px 10px 18px #888888;
     border-radius: 15px;
     background-color: whitesmoke;
 }
-.detail, .weather, .display{
-    font-size: 20px;
+.details{
+    position: relative;
+    top:-30px;
+}
+.detail{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.weather{
+font-size: 15px;
+} 
+.display{
+font-size:30px;
+position: relative;
+right:-8px;
 }
 input{
     padding: 5px;
@@ -35,4 +48,18 @@ input{
 img{
     border-top-left-radius: 15px;
     border-top-right-radius:15px ;
+}
+.show{
+    display: none;
+}
+.time{
+    width: 400px;
+}
+.icon{
+    position: relative;
+    top: -54px;
+    left: 150px;
+    border-radius: 50px;
+    background-color: #ddcece;
+    width:100px;
 }
